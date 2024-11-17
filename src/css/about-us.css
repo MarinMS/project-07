@@ -3,7 +3,9 @@
     padding-bottom: 50px;
 }
 
-.about-us {}
+.about-us picture {
+    flex-shrink: 0;
+}
 
 .container {
     width: 375px;
@@ -60,6 +62,11 @@
     color: #fbfbfb;
 }
 
+.catalog-link:hover,
+.catalog-link:focus {
+    background-color: #1f3cd4;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
@@ -89,10 +96,6 @@
         line-height: 1.25;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -105,5 +108,10 @@
 
     .wrapper {
         margin-bottom: 0;
+    }
+
+    .watch-img {
+        width: 530px;
+        height: 532px;
     }
 }
