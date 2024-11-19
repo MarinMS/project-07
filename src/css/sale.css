@@ -121,6 +121,7 @@
 
   .sale .section-title {
     margin-bottom: 40px;
+    font-size: 48px;
   }
 
   .watch-img-wrap {
@@ -184,6 +185,9 @@
   .sale {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .sale .section-title {
+    font-size: 48px;
   }
 
   .wrap {
