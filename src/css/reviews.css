@@ -1,8 +1,4 @@
-.section {
-    padding: 0px 20px;
-    width: 375px;
-    height: 318px;
-}
+.section {}
 
 .reviews {
     padding-top: 30px;
@@ -23,7 +19,6 @@
 .reviews-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
 }
 
 .reviews-list-box {
@@ -40,6 +35,7 @@
 }
 
 .reviews-list-item {
+    width: 100%;
 }
 
 .reviews-subtitle {
@@ -67,22 +63,24 @@
 }
 
 @media screen and (min-width: 768px) {
-    .section {
-        width: 704px;
-        height: 356px;
-    }
-    
+
     .reviews {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 
     .reviews-list {
-        width: calc((100% - 16px) / 2);
+        width: 704px;
+        gap: 16px;
+    }
+
+    .reviews-list-box {
+        width: 344px;
+        height: 272px;
     }
 
     .two {
-        display:block;
+        display: block;
     }
 
     .reviews-title {
@@ -94,15 +92,20 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .section {
-        padding: 0px 65px;
-        width: 1280px;
-        height: 356px;
-    }
-    
+
     .reviews {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .reviews-list {
+        width: 1150px;
+        gap: 20px;
+    }
+
+    .reviews-list-box {
+        width: 370px;
+        height: 272px;
     }
 
     .three {
