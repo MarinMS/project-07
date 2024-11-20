@@ -62,6 +62,10 @@
     color: rgba(12, 12, 12, 0.4);
 }
 
+.two, .three {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .section {
         width: 704px;
@@ -73,12 +77,14 @@
         padding-bottom: 40px;
     }
 
-    .container {
-        width: 100%;
-        max-width: 768px;
+    .reviews-list {
+        width: calc((100% - 16px) / 2);
     }
 
-    
+    .two {
+        display:block;
+    }
+
     .reviews-title {
         margin-bottom: 40px;
         font-size: 48px;
@@ -90,8 +96,8 @@
 @media screen and (min-width: 1280px) {
     .section {
         padding: 0px 65px;
-        width: 375px;
-        height: 318px;
+        width: 1280px;
+        height: 356px;
     }
     
     .reviews {
@@ -99,5 +105,8 @@
         padding-bottom: 50px;
     }
 
+    .three {
+        display: block;
+    }
 
 }
