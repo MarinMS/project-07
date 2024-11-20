@@ -1,3 +1,8 @@
+.contact-us-container{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .contact-us-form {
     display: flex;
     gap: 20px;
@@ -89,6 +94,10 @@ textarea::placeholder{
     object-fit: cover;
 }
 @media screen and (min-width: 768px) {
+    .contact-us-container {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
     .contact-us-form {
         gap: 40px;
         
@@ -139,6 +148,10 @@ textarea::placeholder{
 
 }
 @media screen and (min-width: 1280px){
+    .contact-us-container {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
     .contact-us-form{
         flex-direction: row;
     }
