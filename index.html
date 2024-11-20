@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project-07/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-07/assets/index-CnWNEtKZ.css">
+    <link rel="stylesheet" crossorigin href="/project-07/assets/index-BBTNOmF_.css">
   </head>
   <body>
     <header class="header">
@@ -509,7 +509,80 @@
 </section>
 
       
-      
+      <section class="contact-us-section" id="contact-us">
+  <div class="contact-us-container container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="contact-us-form">
+      <div class="contact-us-part">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="contact-form">
+          <label>
+            <input
+              class="form-input"
+              type="text"
+              name="username"
+              placeholder="Name"
+              required
+            />
+          </label>
+          <label>
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </label>
+          <label>
+            <input
+              class="form-input"
+              type="tel"
+              name="tel"
+              placeholder="+380"
+              pattern="^+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required
+            />
+          </label>
+          <label class="form-label">
+            <textarea
+              class="form-input text-input"
+              name="comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+          <button class="form-button" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-image">
+        <picture>
+          <source
+            srcset="/project-07/assets/contact-us-pc-I4f-0B0B.jpg 1x, /project-07/assets/contact-us-pc-2x-C7x5uosh.jpg 2x"
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="/project-07/assets/contact-us-tab-BIKxXVD2.jpg 1x, /project-07/assets/contact-us-tab-2x-BcveysVM.jpg 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/project-07/assets/contact-us-mob-CVkl335v.jpg 1x, /project-07/assets/contact-us-mob-2x-DtTKJDqn.jpg 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="contact-img"
+            src="/project-07/assets/contact-us-mob-CVkl335v.jpg"
+            alt="Watch"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
     </main>
 
     <footer class="container container-footer">
