@@ -1,5 +1,11 @@
 .header {
-  padding: 20px;
+  width: 100%;
+  border-bottom: 1px rgba(12, 12, 12, 0.15) solid;
+
+}
+
+.header-wrapper {
+    padding: 20px;
   max-height: 74px;
   max-width: 1280px;
 }
@@ -41,7 +47,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .header-wrapper {
     padding: 26px 32px;
     max-height: 704px;
   }
@@ -61,10 +67,9 @@
     display: none;
   }
 
-  .header {
+  .header-wrapper {
     padding: 26px 64.5px;
     max-height: none;
-    border-bottom: 1px rgba(12, 12, 12, 0.15) solid;
     margin: 0 auto;
   }
 
