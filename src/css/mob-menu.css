@@ -82,6 +82,7 @@
   flex-direction: column;
   gap: 24px;
   margin: 0 auto 218px auto;
+  text-align: center;
 }
 
 .mobile-menu-a {
