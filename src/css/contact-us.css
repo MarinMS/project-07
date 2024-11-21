@@ -151,7 +151,4 @@ textarea::placeholder {
     width: 580px;
     padding: 50px 60px;
   }
-  .contact-img {
-    border-radius: 20px;
-  }
 }
