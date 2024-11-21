@@ -26,6 +26,11 @@
 }
 
 .about-us-list {
+    width: 295px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
   width: 295px;
   margin-bottom: 40px;
   display: flex;
@@ -55,9 +60,32 @@
 }
 
 .catalog-link:hover,
-.catalog-link:focus {
-  background-color: #1f3cd4;
+.catalog-link:focus { about-us
+    background-color: #1f3cd4;
 }
+
+@media screen and (min-width: 768px) {
+
+    .wrapper {
+        padding: 80px 60px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+        width: 704px;
+        height: 512px;
+    }
+
+    .about-us-title {
+        margin-bottom: 40px;
+        font-size: 48px;
+        line-height: 0.92;
+    }
+
+    .about-us-list {
+        width: 584px;
+        margin-bottom: 60px;
+    }
+  background-color: #1f3cd4;
+} 
 
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -67,6 +95,27 @@
     width: 704px;
     height: 512px;
   }
+
+ about-us
+}
+
+@media screen and (min-width: 1280px) {
+    .box-container {
+        width: 1280px;
+        height: 532px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .wrapper {
+        margin-bottom: 0;
+    }
+
+    .watch-img {
+        width: 530px;
+        height: 532px;
+    }
+}
 
   .about-us-title {
     margin-bottom: 40px;
@@ -102,3 +151,4 @@
     height: 532px;
   }
 }
+
