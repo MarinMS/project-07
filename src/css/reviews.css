@@ -4,7 +4,6 @@
 }
 
 .reviews-container{
-  width: 375px;
   height: 318px;
 }
 
@@ -26,7 +25,6 @@
   border-radius: 30px;
   padding: 32px 36px;
   width: 335px;
-  height: 262px;
   background-color: #f3f3f3;
 }
 
