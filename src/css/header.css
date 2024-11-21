@@ -4,7 +4,7 @@
 }
 
 .header-wrapper {
-  padding: 20px 0;
+  padding: 20px;
   max-height: 74px;
   max-width: 375px;
   margin: 0 auto;
@@ -49,7 +49,7 @@
 @media screen and (min-width: 768px) {
   .header-wrapper {
     max-width: 768px;
-    padding: 26px 0;
+    padding: 26px 32px;
     max-height: none;
   }
 
@@ -73,7 +73,7 @@
   }
 
   .header-wrapper {
-    padding: 26px 0;
+    padding: 26px 65px;
     max-height: none;
     margin: 0 auto;
     max-width: 1280px;
