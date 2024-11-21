@@ -107,6 +107,9 @@
     font-size: 20px;
     line-height: 1;
   }
+  .hero-image {
+  border-radius: 50px;
+}
 }
 
 @media screen and (min-width: 1280px) {
