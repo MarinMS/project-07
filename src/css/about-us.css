@@ -101,6 +101,11 @@
         gap: 40px;
     }
 
+  .section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
     .wrapper {
         margin-bottom: 0;
       max-width: 580px;
