@@ -5,6 +5,9 @@
 
 .about-us picture {
   flex-shrink: 0;
+}
+
+.watch-img {
   border-radius: 30px;
 }
 
@@ -86,9 +89,10 @@
         width: 584px;
         margin-bottom: 60px;
     }
-  .about-us picture{
-    border-radius: 50px;
-  }
+  .watch-img {
+  border-radius: 50px;
+}
+
 } 
 
 
@@ -109,6 +113,7 @@
     .watch-img {
         width: 530px;
         height: 532px;
+      boder-radius: 50px;
     }
    .about-us-title {
     margin-bottom: 40px;
