@@ -46,6 +46,25 @@
   color: rgba(12, 12, 12, 0.7);
 }
 
+.catalog-link {
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  padding: 15px 38px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  display: block;
+}
+
+.catalog-link:hover,
+.catalog-link:focus {
+  background-color: #1f3cd4;
+}
+
 @media screen and (min-width: 768px) {
 
     .wrapper {
