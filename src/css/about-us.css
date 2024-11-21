@@ -7,10 +7,6 @@
     flex-shrink: 0;
 }
 
-.container {
-    width: 375px;
-}
-
 .wrapper {
     padding: 40px 20px;
     margin-bottom: 20px;
@@ -35,10 +31,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-.about-us-list-item {
-    
 }
 
 .about-us-list-item-text {
@@ -68,9 +60,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-    }
 
     .wrapper {
         padding: 80px 60px;
@@ -99,7 +88,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    .box-container {
         width: 1280px;
         height: 532px;
         display: flex;

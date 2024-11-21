@@ -3,6 +3,11 @@
     padding-bottom: 30px;
 }
 
+.container {
+    width: 375px;
+    height: 318px;
+}
+
 .reviews-title {
     margin-bottom: 24px;
     font-weight: 600;
@@ -65,6 +70,11 @@
         padding-bottom: 40px;
     }
 
+    .container {
+        width: 704px;
+        height: 356px;
+    }
+
     .reviews-list {
         width: 704px;
         gap: 16px;
@@ -92,6 +102,11 @@
     .reviews {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .container {
+        width: 1280px;
+        height: 356px;
     }
 
     .reviews-list {
