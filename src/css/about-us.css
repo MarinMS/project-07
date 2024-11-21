@@ -59,8 +59,7 @@
   color: #fbfbfb;
 }
 
-.catalog-link:hover,
-.catalog-link:focus { about-us
+  .about-us {
     background-color: #1f3cd4;
 }
 
@@ -84,7 +83,6 @@
         width: 584px;
         margin-bottom: 60px;
     }
-  background-color: #1f3cd4;
 } 
 
 @media screen and (min-width: 768px) {
@@ -95,8 +93,6 @@
     width: 704px;
     height: 512px;
   }
-
- about-us
 }
 
 @media screen and (min-width: 1280px) {
