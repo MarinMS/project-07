@@ -5,6 +5,7 @@
 
 .about-us picture {
   flex-shrink: 0;
+  border-radius: 30px;
 }
 
 .wrapper {
@@ -85,6 +86,9 @@
         width: 584px;
         margin-bottom: 60px;
     }
+  .about-us picture{
+    border-radius: 50px;
+  }
 } 
 
 
