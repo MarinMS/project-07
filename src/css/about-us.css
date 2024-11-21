@@ -15,8 +15,7 @@
   padding: 40px 20px;
   margin-bottom: 20px;
   border-radius: 30px;
-  width: 335px;
-  height: 446px;
+  max-width: 335px;
   background-color: #f3f3f3;
 }
 
@@ -30,16 +29,11 @@
 }
 
 .about-us-list {
-    width: 295px;
+    max-width: 295px;
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  width: 295px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .about-us-list-item-text {
