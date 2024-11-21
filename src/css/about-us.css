@@ -102,6 +102,8 @@
 
     .wrapper {
         margin-bottom: 0;
+      width: 580px;
+      height: 532px;
     }
 
     .watch-img {
