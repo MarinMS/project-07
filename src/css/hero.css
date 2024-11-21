@@ -60,7 +60,9 @@
 .scroll-link:hover {
   color: #3350e9;
 }
-
+.hero-image {
+  border-radius: 30px;
+}
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 80px;
@@ -102,6 +104,14 @@
   .scroll-link {
     font-size: 20px;
     line-height: 1;
+  }
+  .hero-image-wrapper {
+    display: block;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+  .hero-image {
+    border-radius: 50px;
   }
 }
 
