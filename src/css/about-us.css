@@ -1,28 +1,28 @@
 .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .about-us picture {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .wrapper {
-    padding: 40px 20px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    width: 335px;
-    height: 446px;
-    background-color: #f3f3f3;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  width: 335px;
+  height: 446px;
+  background-color: #f3f3f3;
 }
 
 .about-us-title {
-    margin-bottom: 28px;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
 }
 
 .about-us-list {
@@ -31,31 +31,36 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+  width: 295px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .about-us-list-item-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .catalog-link {
-    width: 160px;
-    height: 48px;
-    border-radius: 16px;
-    padding: 15px 38px;
-    background-color: #3350e9;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.29;
-    text-align: center;
-    color: #fbfbfb;
+  width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  padding: 15px 38px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
 }
 
 .catalog-link:hover,
-.catalog-link:focus {
+.catalog-link:focus { about-us
     background-color: #1f3cd4;
 }
 
@@ -79,12 +84,19 @@
         width: 584px;
         margin-bottom: 60px;
     }
+  background-color: #1f3cd4;
+} 
 
-    .about-us-list-item-text {
-        font-size: 16px;
-        line-height: 1.25;
-    }
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 80px 60px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    width: 704px;
+    height: 512px;
+  }
 
+ about-us
 }
 
 @media screen and (min-width: 1280px) {
@@ -104,3 +116,39 @@
         height: 532px;
     }
 }
+
+  .about-us-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .about-us-list {
+    width: 584px;
+    margin-bottom: 60px;
+  }
+
+  .about-us-list-item-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .box-container {
+    width: 1280px;
+    height: 532px;
+    display: flex;
+    gap: 40px;
+  }
+
+  .wrapper {
+    margin-bottom: 0;
+  }
+
+  .watch-img {
+    width: 530px;
+    height: 532px;
+  }
+}
+
