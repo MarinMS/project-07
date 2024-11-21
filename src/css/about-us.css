@@ -7,16 +7,11 @@
   flex-shrink: 0;
 }
 
-.watch-img {
-  border-radius: 30px;
-}
-
 .wrapper {
   padding: 40px 20px;
   margin-bottom: 20px;
   border-radius: 30px;
-  width: 335px;
-  height: 446px;
+  max-width: 335px;
   background-color: #f3f3f3;
 }
 
@@ -125,7 +120,7 @@
   }
 
   .about-us-list {
-    width: 460px;
+    max-width: 460px;
     margin-bottom: 40px;
   }
 
