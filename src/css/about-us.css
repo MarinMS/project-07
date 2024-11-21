@@ -7,6 +7,10 @@
   flex-shrink: 0;
 }
 
+.watch-img {
+  border-radius: 30px;
+}
+
 .wrapper {
   padding: 40px 20px;
   margin-bottom: 20px;
@@ -61,7 +65,7 @@
 }
 
 .watch-img {
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -89,6 +93,11 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .watch-img {
+    border-radius: 50px;
+}
+
 } 
 
 
@@ -116,8 +125,8 @@
   }
 
   .about-us-list {
-    width: 584px;
-    margin-bottom: 60px;
+    width: 460px;
+    margin-bottom: 40px;
   }
 
   .about-us-list-item-text {
